@@ -1,0 +1,41 @@
+footer {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 1;
+        background-color: black;
+        ol, ul {
+            padding-left: 0;
+            }
+        h4 {
+            text-align: center;
+    
+        }
+    
+        a {
+            color: #696969;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            line-height: 50px;
+            :hover {
+                color: white;
+                transition: 1.2s;
+            }
+        }
+            :hover {
+                color: white;
+                transition: 1.2s;
+            }
+    
+            .social-links{
+                padding-top: 20px;
+    
+                .iconify-twitter{
+                    margin-bottom: 5px;
+                }
+                .iconify-instagram {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    

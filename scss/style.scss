@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'oswald';
+    box-sizing: border-box;
+}
+.row {
+    --bs-gutter-x: 0;
+    }
+
+
+@import 'header';
+@import 'main';
+@import 'livetiles';
+@import 'footer';
+@import 'bio';
+@import 'music';
+@import 'contact';
+@import 'merch';

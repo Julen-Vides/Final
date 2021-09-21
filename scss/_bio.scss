@@ -1,0 +1,87 @@
+main {
+
+
+    
+    .content-bio {
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+
+        .titulo {
+            text-align: center;
+            font-size: 15px;
+            padding: 10px;
+            background-color: #696969;
+            border-radius: 5px;
+            width: 100%;
+            font-weight: 400;
+        }
+        .body{
+            display: flex;
+            overflow: auto;
+            .profile {
+                float: left;
+                width: 35%;
+                background-color: #000000;
+                box-shadow: 0 0 0 0 black, 0 0 20px 0 black;
+    
+                h3 {
+                    color: white;
+                    text-transform: uppercase;
+    
+                }
+    
+                .img {
+                    box-shadow: 5px 4px 0 0 white, 0 0 0 0 white;
+                }
+            }
+    
+            ul {
+                padding: 15px;
+    
+                li {
+                    color: white;
+                    font-weight: 300;
+                }
+            }
+    
+    
+        }
+    
+        .bio {
+   
+    
+            h6 {
+                margin: 35px 0 30px 3px;
+                text-align: center;
+                color: white;
+                font-size: 22px;
+            }
+    
+            p {
+                color: white;
+                padding-left: 40%;
+            }
+        }
+        }
+        
+
+}
+
+@media only screen and (max-width: 360px) {
+    .body{
+        display: flex;
+        flex-wrap: wrap;
+
+        .bio{
+            flex-wrap: wrap;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+    
+    }

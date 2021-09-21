@@ -1,0 +1,25 @@
+main{
+
+    .titulo-pagina{
+        margin-top: 200px;
+    }
+        .photo-grid-container {
+            margin-top: 100px;
+    
+            .photo-grid{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-left: 80px;
+            margin-right: 80px;
+            .titulo-grid{
+                color: white;
+                font-weight: 300;
+                margin-bottom: 30px;
+            }
+            img{
+                border-radius: 8px;
+            }
+        }
+    }
+    }

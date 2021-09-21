@@ -1,0 +1,56 @@
+body {
+    background-color: #161616;
+
+    .navbar-black {
+        background: black;
+    }
+
+    .offcanvas-header {
+        background: black;
+
+
+    }
+
+    .offcanvas-body {
+        background: black;
+    }
+
+    .modal-backdrop {
+        display: none;
+    }
+
+    .navbar-toggler {
+        background-color: rgb(255, 255, 255);
+
+    }
+
+    .navbar-toggler-icon {
+        background-color: black;
+    }
+
+    .btn-close {
+        background-color: rgb(255, 255, 255);
+
+    }
+
+    .nav-item {
+
+        font-size: 25px;
+        font-style: italic;
+        font-weight: 700;
+
+        .nav-link {
+            color: #696969;
+
+            a {
+                &:hover {
+                    color: white;
+                    transition: 0.7s;
+                    background: rgb(0, 0, 0);
+                    background: linear-gradient(111deg, rgba(0, 0, 0, 1) 0%, rgb(173, 173, 173) 79%);
+                    padding: 5px;
+                }
+            }
+        }
+    }
+}

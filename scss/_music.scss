@@ -1,0 +1,174 @@
+main {
+    h2 {
+        text-align: center;
+        color: white;
+        font-weight: 300;
+        padding: 5%;
+    }
+
+    h3 {
+        padding-top: 2%;
+        color: black;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    h4 {
+        padding-top: 2%;
+        color: black;
+        text-align: center;
+    }
+
+
+    section {
+        margin: 10%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: center;
+        background: white;
+        border-radius: 10px;
+        padding: 5%;
+
+        .mixtapes {
+            display: flex;
+            justify-content: center;
+            background: white;
+            border-radius: 10px;
+            padding: 5%;
+        }
+        
+
+        .right {
+            display: flex;
+            justify-content: center;
+
+            .btn {
+                margin-left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+
+        .left {
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: 210px;
+                border-radius: 5px;
+            }
+        }
+
+
+
+        .btn {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            background-color: black;
+            color: white;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    
+.mixtapes{
+    padding-left: 80px;
+}
+.videos{
+    padding-left: 80px;
+}
+.singles{
+    padding-left: 80px;
+}
+.collabs{
+    padding-left: 80px;
+}
+.btn {
+    width: 50%;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+}
+
+
+
+
+
+
+@media only screen and (max-width: 365px) {
+    /*---------------------------------------------- SECTION 1 ------------------------------------------*/
+
+    .mixtapes {
+        overflow: scroll;
+
+        .scroll {
+            margin-left: 150px;
+margin-right: 20px;
+            }
+
+        }
+/*---------------------------------------------- SECTION 1 videos ------------------------------------------*/
+
+.videos {
+    overflow: scroll;
+
+    .scroll {
+        margin-left: 435px;
+        }
+
+    }
+
+/*---------------------------------------------- SECTION 2 ------------------------------------------*/
+            .singles {
+                overflow: scroll;
+
+                .scroll {
+                    margin-left: 150px;
+margin-right: 20px;
+                    }
+            }
+
+
+
+/*---------------------------------------------- SECTION 3 ------------------------------------------*/
+            .collabs {
+                overflow: scroll;
+
+                .scroll {
+                    margin-left: 150px;
+                    margin-right: 20px;
+                }
+            }
+
+/*---------------------------------------------- SECTION 4 ------------------------------------------*/
+                .prod {
+                    overflow: scroll;
+
+                    .scroll {
+                        margin-left: 435px;
+                        }
+
+
+                }
+/*---------------------------------------------- SECTION 5 ------------------------------------------*/
+                .pre-debut {
+                    overflow: scroll;
+
+                    .scroll {
+                        margin-left: 435px;
+                        }
+
+                }
+            }
